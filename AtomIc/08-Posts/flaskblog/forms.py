@@ -40,7 +40,7 @@ class LoginForm(FlaskForm):
 	remember = BooleanField('Remember Me')
 	submit = SubmitField('Login')
 	
-class ClientInvestorButton(Form):
+class ClientInvestorButton(FlaskForm):
 	username=StringField('vec')
 	password=StringField('vec')
 	confirm_password=StringField('vec')
